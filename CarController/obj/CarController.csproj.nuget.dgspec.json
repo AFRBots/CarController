@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arren Ting\\Desktop\\Hackathon Files\\CarController\\CarController\\CarController.csproj": {}
+    "C:\\Users\\Taras Levytskyy\\Source\\Repos\\AFRBots\\CarController\\CarController\\CarController.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arren Ting\\Desktop\\Hackathon Files\\CarController\\CarController\\CarController.csproj": {
+    "C:\\Users\\Taras Levytskyy\\Source\\Repos\\AFRBots\\CarController\\CarController\\CarController.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arren Ting\\Desktop\\Hackathon Files\\CarController\\CarController\\CarController.csproj",
+        "projectUniqueName": "C:\\Users\\Taras Levytskyy\\Source\\Repos\\AFRBots\\CarController\\CarController\\CarController.csproj",
         "projectName": "CarController",
-        "projectPath": "C:\\Users\\Arren Ting\\Desktop\\Hackathon Files\\CarController\\CarController\\CarController.csproj",
-        "packagesPath": "C:\\Users\\Arren Ting\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arren Ting\\Desktop\\Hackathon Files\\CarController\\CarController\\obj\\",
+        "projectPath": "C:\\Users\\Taras Levytskyy\\Source\\Repos\\AFRBots\\CarController\\CarController\\CarController.csproj",
+        "packagesPath": "C:\\Users\\Taras Levytskyy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Taras Levytskyy\\Source\\Repos\\AFRBots\\CarController\\CarController\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Arren Ting\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Taras Levytskyy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

@@ -15,6 +15,8 @@ namespace CarController
     public partial class Form1 : Form
     {
         string msg;
+        int command = 0;
+        
 
         ClientWebSocket ws = new ClientWebSocket();
 
@@ -25,17 +27,20 @@ namespace CarController
             this.KeyPreview = true;
             KeyDown += Form1_KeyDown;
             KeyUp += Form1_KeyUp;
+            msg = "{ \"message\":\"sendmessage\", \"data\":\"" + command.ToString() + "\"}";
+            
+
         }
 
         private void Form1_KeyUp(object sender, KeyEventArgs e)
         {
-            msg = ("{ \"message\":\"sendmessage\", \"data\":\"0\"}");
-            Task<string> task = Connection(msg);
+            command = 0;
         }
 
         public async void Form1_Load(object sender, EventArgs e)
         {
             await ws.ConnectAsync(new Uri("wss://twclevz8t5.execute-api.us-east-1.amazonaws.com/prod"), CancellationToken.None);
+            timer1.Start();
         }
 
         //On KeyDown, determine which Keys it is and perform a movement on the car
@@ -43,28 +48,23 @@ namespace CarController
         {
             if(e.KeyCode == Keys.Q)
             {
-                msg = ("{ \"message\":\"sendmessage\", \"data\":\"0\"}");
-                Task<string> task = Connection(msg);
+                command = 0;
             }
             if(e.KeyCode == Keys.W)
             {
-                msg = ("{ \"message\":\"sendmessage\", \"data\":\"1\"}");
-                Task<string> task = Connection(msg);
+                command = 1;
             }
             if (e.KeyCode == Keys.S)
             {
-                msg = ("{ \"message\":\"sendmessage\", \"data\":\"2\"}");
-                Task<string> task = Connection(msg);
+                command = 2;
             }
             if (e.KeyCode == Keys.A)
             {
-                msg = ("{ \"message\":\"sendmessage\", \"data\":\"3\"}");
-                Task<string> task = Connection(msg);
+                command = 3;
             }
             if (e.KeyCode == Keys.D)
             {
-                msg = ("{ \"message\":\"sendmessage\", \"data\":\"4\"}");
-                Task<string> task = Connection(msg);
+                command = 4;
             }
         }
 
@@ -86,6 +86,10 @@ namespace CarController
             return response;
         }
 
-
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            msg = "{ \"message\":\"sendmessage\", \"data\":\"" + command.ToString() + "\"}";
+            Task<string> task = Connection(msg);
+        }
     }
 }

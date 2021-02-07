@@ -28,3 +28,18 @@ C:\Users\Arren Ting\Desktop\Hackathon Files\CarController\CarController\obj\Debu
 C:\Users\Arren Ting\Desktop\Hackathon Files\CarController\CarController\obj\Debug\netcoreapp3.1\CarController.dll
 C:\Users\Arren Ting\Desktop\Hackathon Files\CarController\CarController\obj\Debug\netcoreapp3.1\CarController.pdb
 C:\Users\Arren Ting\Desktop\Hackathon Files\CarController\CarController\obj\Debug\netcoreapp3.1\CarController.genruntimeconfig.cache
+C:\Users\Taras Levytskyy\Source\Repos\AFRBots\CarController\CarController\bin\Debug\netcoreapp3.1\CarController.exe
+C:\Users\Taras Levytskyy\Source\Repos\AFRBots\CarController\CarController\bin\Debug\netcoreapp3.1\CarController.deps.json
+C:\Users\Taras Levytskyy\Source\Repos\AFRBots\CarController\CarController\bin\Debug\netcoreapp3.1\CarController.runtimeconfig.json
+C:\Users\Taras Levytskyy\Source\Repos\AFRBots\CarController\CarController\bin\Debug\netcoreapp3.1\CarController.runtimeconfig.dev.json
+C:\Users\Taras Levytskyy\Source\Repos\AFRBots\CarController\CarController\bin\Debug\netcoreapp3.1\CarController.dll
+C:\Users\Taras Levytskyy\Source\Repos\AFRBots\CarController\CarController\bin\Debug\netcoreapp3.1\CarController.pdb
+C:\Users\Taras Levytskyy\Source\Repos\AFRBots\CarController\CarController\obj\Debug\netcoreapp3.1\CarController.csprojAssemblyReference.cache
+C:\Users\Taras Levytskyy\Source\Repos\AFRBots\CarController\CarController\obj\Debug\netcoreapp3.1\CarController.Form1.resources
+C:\Users\Taras Levytskyy\Source\Repos\AFRBots\CarController\CarController\obj\Debug\netcoreapp3.1\CarController.csproj.GenerateResource.cache
+C:\Users\Taras Levytskyy\Source\Repos\AFRBots\CarController\CarController\obj\Debug\netcoreapp3.1\CarController.AssemblyInfoInputs.cache
+C:\Users\Taras Levytskyy\Source\Repos\AFRBots\CarController\CarController\obj\Debug\netcoreapp3.1\CarController.AssemblyInfo.cs
+C:\Users\Taras Levytskyy\Source\Repos\AFRBots\CarController\CarController\obj\Debug\netcoreapp3.1\CarController.csproj.CoreCompileInputs.cache
+C:\Users\Taras Levytskyy\Source\Repos\AFRBots\CarController\CarController\obj\Debug\netcoreapp3.1\CarController.dll
+C:\Users\Taras Levytskyy\Source\Repos\AFRBots\CarController\CarController\obj\Debug\netcoreapp3.1\CarController.pdb
+C:\Users\Taras Levytskyy\Source\Repos\AFRBots\CarController\CarController\obj\Debug\netcoreapp3.1\CarController.genruntimeconfig.cache
